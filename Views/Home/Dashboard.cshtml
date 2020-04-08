@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewBag.Title = "Report";
+}
+     <!-- jqx -->
+        <link rel="stylesheet" href="~/Content/jqx/jqx.base.css" type="text/css" />
+        <link rel="stylesheet" href="~/Content/jqx/jqx.classic.css" type="text/css" />
+        <script type="text/javascript" src="~/Scripts/jqx/jqxcore.js"></script>
+        <script type="text/javascript" src="~/Scripts/jqx/jqxbuttons.js"></script>
+        <script type="text/javascript" src="~/Scripts/jqx/jqxscrollbar.js"></script>
+        <script type="text/javascript" src="~/Scripts/jqx/jqxmenu.js"></script>
+        <script type="text/javascript" src="~/Scripts/jqx/jqxgrid.js"></script>
+        <script type="text/javascript" src="~/Scripts/jqx/jqxgrid.selection.js"></script>
+        <script type="text/javascript" src="~/Scripts/jqx/jqxgrid.filter.js"></script>
+        <script type="text/javascript" src="~/Scripts/jqx/jqxgrid.sort.js"></script>
+        <script type="text/javascript" src="~/Scripts/jqx/jqxdata.js"></script>
+        <script type="text/javascript" src="~/Scripts/jqx/jqxlistbox.js"></script>
+        <script type="text/javascript" src="~/Scripts/jqx/jqxgrid.pager.js"></script>
+        <script type="text/javascript" src="~/Scripts/jqx/jqxdropdownlist.js"></script>
+        <!-- custom -->
+        <link href="~/Content/dashboard.css" rel="stylesheet">
+        <script type="text/javascript" src="~/Scripts/dashboard.js"></script>
+
+        <!-- datepicker -->
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+        <div class="container contact-form ">
+            <div class="text-right">
+                <img src="~/Content/img/logo.png " alt="rocket_contact " width=200px height=80px />
+            </div>
+
+            <h2 class="mytitle">Score Board</h2>
+            <span class="badge badge-secondary">
+                <h4>Options</h4>
+            </span>
+            <div class="row d-flex p-1" style="border-bottom:2px solid black;border-top:2px solid black">
+                <label class="col-form-label form-control-label ">Period:</label>
+                <select name="period" id="period" style="margin-left:10px;">
+                    <option value="1 "> Daily</option>
+                    <option value="2 "> Monthly</option>
+                </select>
+                <input type="text" id="datepicker" style="margin-left:10px;position:relative; z-index:10000"> </input>
+                <input type="text" id="monthpicker" style="margin-left:10px;position:relative; z-index:10001; display:none;"> </input>
+            </div>
+            <span class="badge badge-secondary">
+                <h3>Team results</h3>
+            </span>
+            <div class="row">
+                <div id="team_table">
+                </div>
+            </div>
+            <span class="badge badge-secondary">
+                <h3>Individual results</h3>
+            </span>
+            <div class="row">
+                <div id="individual_table">
+                </div>
+            </div>
+
+            <script>
+
+            </script>
+        </div>

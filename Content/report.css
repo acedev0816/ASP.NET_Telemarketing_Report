@@ -1,0 +1,147 @@
+body {
+    background: -webkit-linear-gradient(left, #c9c9cc, #eaeef1);
+}
+
+.btnContactSubmit {
+    width: 40%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.contact-form {
+    background: #fff;
+    margin-top: 6%;
+    margin-bottom: 5%;
+    width: 55%;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    box-shadow: 0 0 0.1em 1px #637381;
+}
+
+.mytitle {
+    font-size: 40px;
+    color: #333333;
+    text-align: center;
+}
+
+.contact-form img {
+    margin-top: -5%;
+    margin-right: -1%
+}
+
+.contact-form .form-control {
+    border-radius: 1rem;
+}
+
+.contact-form form {
+    padding: 2% 6%;
+}
+
+    .contact-form form .row {
+        margin-bottom: 2%;
+    }
+
+.calendar {
+    margin: auto;
+    background: white;
+    box-shadow: 1px 2px 3px black;
+    margin-top: 30%;
+    padding-bottom: 10%;
+    vertical-align: middle;
+    width: 90%;
+}
+
+.frame {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: #e74c3c;
+}
+
+.screw {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #bdc3c7;
+    border-radius: 50px;
+    top: 30%;
+    box-shadow: inset 0px 0px 10px #2c3e50;
+    border: 1px solid #7f8c8d;
+}
+
+.left {
+    left: 15px;
+}
+
+.right {
+    right: 15px;
+}
+
+.shine {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    left: 5px;
+    top: 5px;
+}
+
+.line {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #7f8c8d;
+    top: 18px;
+    transform: rotate(20deg);
+}
+
+.rerotate {
+    transform: rotate(60deg);
+}
+
+.year h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    line-height: 90%;
+}
+
+.content {
+    width: 100%;
+}
+
+    .content h1 {
+        text-align: center;
+        font-size: 130px;
+        margin: 0;
+        padding: 0;
+        line-height: 90%;
+    }
+
+    .content h2 {
+        text-align: center;
+        font-size: 50px;
+        margin: 0;
+        padding: 0;
+        line-height: 90%px;
+    }
+
+form .error {
+    color: #ff0000;
+}
+
+.mymsgbox {
+    margin-top: 10%;
+}
